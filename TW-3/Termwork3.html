@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating animations</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        
+            
+        }
+        div{
+            position: relative;
+            left: 500px;
+            text-align: center;
+            align-items: center;
+            padding-top: 100px;
+            background-color: aqua;
+            border-radius: 50px;
+           
+            border-color: blanchedalmond;
+            border-width: 20px;
+            width: 500px;
+            height: 400px;
+            position: relative;
+            transition: 0.2s;
+            transition-duration: 2s;
+            animation: ganu;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        
+
+
+        
+        @keyframes ganu{
+            0%{
+                background-color: orange;
+                left:0px;
+                top: 0px;
+            }
+            25%{
+                background-color: yellow;
+                left:800px;
+                top: 0px;
+            }
+            50%{
+                background-color: aqua;
+                left:800px;
+                top: 200px;
+            }
+
+            75%{
+                background-color: pink;
+                left:0px;
+                top: 200px;
+            }
+            100%{
+                background-color: whitesmoke;
+                left:0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="Ganesh.png" width="200px">
+        <h1>Hii,I'm Ganesh ,a web developer and programmer</h1>
+    </div>
+    
+</body>
+</html>
